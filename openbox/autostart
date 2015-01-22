@@ -1,1 +1,11 @@
-/home/lisandro/.config/openbox/autostart
+xcompmgr -cC -t-3 -l-5 -r5 &
+xset m 1/1 4 &
+# lxpanel &
+# avant-window-navigator &
+xfce4-power-manager &
+# nitrogen --restore &
+xfdesktop&
+wicd-client --tray&
+tint2&
+volumeicon&
+# cairo-dock &
