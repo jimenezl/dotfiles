@@ -1,0 +1,89 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+    edge=bottom
+    allign=left
+    margin=0
+    widthtype=percent
+    width=22
+    height=33
+    transparent=0
+    tintcolor=#000000
+    alpha=0
+    autohide=1
+    heightwhenhidden=2
+    setdocktype=1
+    setpartialstrut=0
+    usefontcolor=1
+    fontsize=10
+    fontcolor=#ffffff
+    usefontsize=0
+    background=0
+    backgroundfile=/usr/share/lxpanel/images/background.png
+    iconsize=30
+    loglevel=2
+}
+
+Plugin {
+    type = menu
+    Config {
+        image=/home/lisandro/wallpapers/531px-Aperture_Science.svg.png
+        system {
+        }
+        separator {
+        }
+        item {
+            command=run
+        }
+        separator {
+        }
+        item {
+            image=gnome-logout
+            command=logout
+        }
+    }
+}
+
+Plugin {
+    type = space
+    Config {
+        Size=6
+    }
+}
+
+Plugin {
+    type = batt
+    Config {
+        HideIfNoBattery=0
+        AlarmCommand=xmessage Battery low
+        AlarmTime=5
+        BackgroundColor=black
+        BorderWidth=1
+        ChargingColor1=#28f200
+        ChargingColor2=#22cc00
+        DischargingColor1=#ffee00
+        DischargingColor2=#d9ca00
+        Size=8
+    }
+}
+
+Plugin {
+    type = dclock
+    Config {
+        ClockFmt=%l:%M %p
+        TooltipFmt=%A, %x
+        BoldFont=0
+        IconOnly=0
+        CenterText=0
+    }
+}
+
+Plugin {
+    type = volumealsa
+}
+
+Plugin {
+    type = tray
+}
+
