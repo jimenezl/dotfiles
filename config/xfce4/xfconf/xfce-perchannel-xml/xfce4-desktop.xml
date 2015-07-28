@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-desktop" version="1.0">
+  <property name="backdrop" type="empty">
+    <property name="screen0" type="empty">
+      <property name="monitorLVDS1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="2"/>
+          <property name="image-style" type="int" value="4"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/spacestationearth.jpg"/>
+          <property name="color1" type="array">
+            <value type="uint" value="44903"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="557"/>
+            <value type="uint" value="65535"/>
+          </property>
+          <property name="color2" type="array">
+            <value type="uint" value="63129"/>
+            <value type="uint" value="34895"/>
+            <value type="uint" value="11996"/>
+            <value type="uint" value="65535"/>
+          </property>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/01407_harboursunset_2560x1600.jpg"/>
+          <property name="backdrop-cycle-enable" type="bool" value="false"/>
+        </property>
+        <property name="workspace2" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/03874_reflectionintheyukon_1366x768.jpg"/>
+          <property name="color1" type="array">
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="65535"/>
+          </property>
+        </property>
+        <property name="workspace3" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/cliff.jpg"/>
+          <property name="color1" type="array">
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="65535"/>
+          </property>
+        </property>
+        <property name="workspace4" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="DEADBEEF"/>
+        </property>
+      </property>
+      <property name="monitorHDMI1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/lake_1.jpg"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/lake_1.jpg"/>
+        </property>
+        <property name="workspace2" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/lake_1.jpg"/>
+        </property>
+        <property name="workspace3" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/lake_1.jpg"/>
+        </property>
+      </property>
+      <property name="monitor0" type="empty">
+        <property name="image-style" type="int" value="-1380748768"/>
+        <property name="brightness" type="int" value="63"/>
+        <property name="saturation" type="double" value="0.000000"/>
+        <property name="image-path" type="string" value="DEADBEEF"/>
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="DEADBEEF"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="DEADBEEF"/>
+        </property>
+        <property name="workspace2" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="DEADBEEF"/>
+        </property>
+        <property name="workspace3" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="DEADBEEF"/>
+        </property>
+      </property>
+      <property name="monitorVGA1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="2"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/lake_1.jpg"/>
+          <property name="color1" type="array">
+            <value type="uint" value="11020"/>
+            <value type="uint" value="11020"/>
+            <value type="uint" value="11020"/>
+            <value type="uint" value="65535"/>
+          </property>
+          <property name="color2" type="array">
+            <value type="uint" value="18260"/>
+            <value type="uint" value="6949"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="65535"/>
+          </property>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/lake_1.jpg"/>
+        </property>
+        <property name="workspace2" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/lake_1.jpg"/>
+        </property>
+        <property name="workspace3" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/lisandro/wallpapers/lake_1.jpg"/>
+          <property name="color1" type="array">
+            <value type="uint" value="10679"/>
+            <value type="uint" value="34450"/>
+            <value type="uint" value="65535"/>
+            <value type="uint" value="65535"/>
+          </property>
+          <property name="color2" type="array">
+            <value type="uint" value="0"/>
+            <value type="uint" value="57108"/>
+            <value type="uint" value="56156"/>
+            <value type="uint" value="65535"/>
+          </property>
+        </property>
+      </property>
+    </property>
+    <property name="single-workspace-mode" type="bool" value="false"/>
+  </property>
+  <property name="last" type="empty">
+    <property name="window-width" type="int" value="808"/>
+    <property name="window-height" type="int" value="634"/>
+  </property>
+  <property name="desktop-icons" type="empty">
+    <property name="file-icons" type="empty">
+      <property name="show-removable" type="bool" value="false"/>
+      <property name="show-trash" type="bool" value="false"/>
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-home" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>

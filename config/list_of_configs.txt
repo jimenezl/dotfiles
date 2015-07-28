@@ -2,3 +2,5 @@ lxpanel
 openbox
 tint2
 redshift
+Thunar
+xfce4

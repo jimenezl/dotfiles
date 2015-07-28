@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=KSysGuard
+GenericName=System Monitor
+Exec=ksysguard %U
+Icon=utilities-system-monitor-symbolic
+Type=Application
+MimeType=application/x-ksysguard;
+X-DocPath=ksysguard/index.html
+Terminal=false
+X-KDE-StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;System;
+X-XFCE-Source=file:///usr/share/applications/kde4/ksysguard.desktop
+Comment=
+Path=
+StartupNotify=false

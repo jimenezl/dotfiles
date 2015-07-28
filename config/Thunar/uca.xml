@@ -1,0 +1,22 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1408054448527999-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>terminal</icon>
+	<name>Launch Konsole Here</name>
+	<unique-id>1437750842968934-3</unique-id>
+	<command>konsole --workdir %d</command>
+	<description>Launch a terminal emulator (Konsole) in the current dirrctory</description>
+	<patterns>*</patterns>
+	<text-files/>
+</action>
+</actions>
