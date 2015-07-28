@@ -12,13 +12,13 @@ border_color = #FFFFFF 80
 # ID 2
 rounded = 3
 border_width = 1
-background_color = #585858 46
+background_color = #676767 46
 border_color = #FFFFFF 28
 
 # ID 3
 rounded = 11
 border_width = 0
-background_color = #000000 16
+background_color = #FFFFFF 16
 border_color = #FFFFFF 100
 
 # ID 4
@@ -59,7 +59,7 @@ task_centered = 1
 task_maximum_size = 100 10
 task_padding = 0 3
 task_background_id = 000000
-task_active_background_id = 4
+task_active_background_id = 3
 task_urgent_background_id = 0
 task_iconified_background_id = 0
 
@@ -92,7 +92,8 @@ battery_low_status = 15
 battery_low_cmd = notify-send "battery low"
 bat1_font = sans 7
 bat2_font = sans 6
-battery_font_color = #999999 76
+battery_font_color = #FFFFFF 100
+#battery_font_color = #999999 76
 battery_padding = 1 0
 battery_background_id = 0
 
@@ -104,7 +105,7 @@ time2_font = Sans 7
 clock_font_color = #FFFFFF 100
 clock_padding = 0 0
 clock_background_id = 0
-clock_rclick_command = orage
+clock_lclick_command = gsimplecal
 
 # Tooltips
 tooltip = 0
@@ -118,8 +119,6 @@ tooltip_font_color = #FFFFFF 100
 # Mouse
 mouse_middle = none
 mouse_right = none
-mouse_scroll_up = maximize_restore
-mouse_scroll_down = iconify
 
 
 

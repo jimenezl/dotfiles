@@ -1,11 +1,25 @@
-xcompmgr -cC -t-3 -l-5 -r5 &
-xset m 1/1 4 &
+#xcompmgr -cC -t-3 -l-5 -r5 &
+# xinput --set-prop 9 'Device Accel Constant Deceleration' 3 &
+# xset m 1/1 4 &
+xinput --set-prop 9 'Device Accel Constant Deceleration' 1.25 &
+xset mouse 2 3 &
 # lxpanel &
 # avant-window-navigator &
 xfce4-power-manager &
 # nitrogen --restore &
 xfdesktop&
-wicd-client --tray&
-tint2&
+#wicd-client -n&
 volumeicon&
 # cairo-dock &
+# redshift -c ~/.config/redshift/redshift.rc&
+gtk-redshift -l 42.35:-71.09 -t 6500:3700 &
+# sudo mount -t ntfs -o nls=utf8,umask=0222 /dev/sda2 /windows &
+tint2&
+
+xmodmap -e "clear Lock" &
+xmodmap ~/.config/openbox/.xmodmap.txt &
+
+sudo ifconfig lo multicast
+sudo route add -net 224.0.0.0 netmask 240.0.0.0 dev lo
+
+export LCM_DEFAULT_URL=udpm://239.255.76.67:7667?ttl=0

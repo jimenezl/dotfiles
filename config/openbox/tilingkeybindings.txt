@@ -1,0 +1,60 @@
+<keybind key="C-W-Left">
+        <action name="GrowToEdge">
+          <direction>left</direction>
+        </action>
+      </keybind>
+      <keybind key="C-W-Right">
+        <action name="GrowToEdge">
+          <direction>right</direction>
+        </action>
+      </keybind>
+      <keybind key="C-W-Up">
+        <action name="GrowToEdge">
+          <direction>up</direction>
+        </action>
+      </keybind>
+      <keybind key="C-W-Down">
+        <action name="GrowToEdge">
+          <direction>down</direction>
+        </action>
+      </keybind>
+      <keybind key="W-Left">
+        <action name="MoveToEdge">
+          <direction>west</direction>
+        </action>
+      </keybind>
+      <keybind key="W-Right">
+        <action name="MoveToEdge">
+          <direction>east</direction>
+        </action>
+      </keybind>
+      <keybind key="W-Up">
+        <action name="MoveToEdge">
+          <direction>north</direction>
+        </action>
+      </keybind>
+      <keybind key="W-Down">
+        <action name="MoveToEdge">
+          <direction>south</direction>
+        </action>
+      </keybind>
+      <keybind key="C-W-A-Left">
+        <action name="ShrinkToEdge">
+          <direction>east</direction>
+        </action>
+      </keybind>
+      <keybind key="C-W-A-Right">
+        <action name="ShrinkToEdge">
+          <direction>west</direction>
+        </action>
+      </keybind>
+      <keybind key="C-W-A-Up">
+        <action name="ShrinkToEdge">
+          <direction>north</direction>
+        </action>
+      </keybind>
+      <keybind key="C-W-A-Down">
+        <action name="ShrinkToEdge">
+          <direction>south</direction>
+        </action>
+      </keybind>

@@ -1,0 +1,4 @@
+lxpanel
+openbox
+tint2
+redshift
